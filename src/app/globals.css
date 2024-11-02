@@ -19,3 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bingo{
+  h1{
+    @apply text-3xl my-4 font-semibold;
+  }
+  h2{
+    @apply text-2xl my-4 font-semibold;
+  }
+  h3{
+    @apply text-xl my-4 font-semibold;
+  }
+  p{
+    @apply my-4
+  }
+  ul li {
+    @apply list-disc ml-8 
+  }
+}
