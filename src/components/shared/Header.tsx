@@ -29,9 +29,9 @@ const Header = () => {
         </Link>
       </div>
       <div className="grotesk mt-6 flex items-center justify-between py-4 px-4 sm:mx-0 sm:px-0 md:px-6">
-        <div className="mt-4 inline-block pb-4 pl-8">
+        <div className="mt-4 pb-4 pl-8 flex-grow flex gap-x-4 items-center">
           <Link href="/" className="align-middle text-3xl font-bold text-black">
-            NINE4
+            <img src="/images/logo.png" width={"200"} height={"200"} className="" />
           </Link>
           <div className="hidden pl-14 align-middle xl:inline-block">
             {navigations.map((nav, index) => (

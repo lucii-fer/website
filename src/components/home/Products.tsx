@@ -8,14 +8,16 @@ const Products = () => {
       name: "BulksApp (Whatsapp Bulk Messanger)",
       description: `"BulksApp (Whatsapp Bulk Messanger)" is a user-friendly Android app for sending personalized bulk messages to multiple contacts on a popular social media.`,
       link: "https://play.google.com/store/apps/details?id=com.qs.bulksapp2",
+      proLink:"https://play.google.com/store/apps/details?id=com.qs.bulksapp2.paid"
     },
     {
       image:
-        "https://play-lh.googleusercontent.com/nX6WwIBU7WKOlDKcpzhtZ3xI2GUUeZeJwQz8H0wJsYMN9m5O-7H6Mey2IVq0b50uyCrm=s48-rw",
+      "https://play-lh.googleusercontent.com/nX6WwIBU7WKOlDKcpzhtZ3xI2GUUeZeJwQz8H0wJsYMN9m5O-7H6Mey2IVq0b50uyCrm=s48-rw",
       name: "Bulk SMS Sender",
       description: `
-Bulk SMS Sender is an intuitive Android app that serves as your default SMS handler and enables powerful bulk messaging, perfect for businesses and event organizers.`,
+      Bulk SMS Sender is an intuitive Android app that serves as your default SMS handler and enables powerful bulk messaging, perfect for businesses and event organizers.`,
       link: "https://play.google.com/store/apps/details?id=com.qs.messages&hl=en_IN",
+      proLink:"https://play.google.com/store/apps/details?id=com.qs.messages.pro",
     },
   ];
   return (
@@ -52,7 +54,7 @@ Bulk SMS Sender is an intuitive Android app that serves as your default SMS hand
                   Get Free App
                 </a>
                 <a
-                  href={product.link}
+                  href={product.proLink}
                   className="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 inline-block"
                 >
                   Get Premium App

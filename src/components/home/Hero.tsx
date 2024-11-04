@@ -38,7 +38,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="mt-16">
-        <Image src={"/images/hero.png"} alt="Hero Image" width={"2000"} height={"2000"} className="w-full max-w-4xl mx-auto" />
+        <img src={"/images/hero.png"} alt="Hero Image" width={"2000"} height={"2000"} className="w-full max-w-4xl mx-auto" />
       </div>
     </section>
   );
