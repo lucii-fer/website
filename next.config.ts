@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  trailingSlash: true
 };
 
 export default nextConfig;
