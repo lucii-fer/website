@@ -61,13 +61,12 @@ const Footer = () => {
       </div>
       <div className="px-2 text-center">
         <div className="max-w-8xl mx-auto px-5 ">
-          <div className="right-0 py-8 text-sm hidden">
+          <div className="right-0 py-8 text-sm">
             {[
-              { name: "Terms & Conditions", link: "/" },
-              { name: "Privacy Policy", link: "/" },
-              { name: "Cookie Policy", link: "/" },
+              { name: "Terms & Conditions", link: "#" },
+              { name: "Privacy Policy", link: "/privacy-policy" },
             ].map((item, index) => (
-              <Link key={index} href={item.link} className="mr-16 hover:text-slate-200">
+              <Link key={index} href={item.link} className="mr-16 text-gray-600">
                 {item.name}
               </Link>
             ))}
