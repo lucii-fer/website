@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  images: { unoptimized: true } ,
   trailingSlash: true
 };
 
