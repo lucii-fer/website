@@ -2,7 +2,7 @@
 
 export default function Terms() {
     return (
-      <div className="bg-gray-50 py-8">
+      <div className="bg-gray-50 py-24">
         <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
           <h1 className="text-3xl font-semibold text-center text-gray-800 mb-8">Terms and Conditions</h1>
   
@@ -11,7 +11,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">1. Introduction</h2>
             <p className="text-gray-600">
-              Welcome to Qiweck Solutions (the "Website"). By accessing or using our Website, you agree to these Terms and Conditions.
+              Welcome to Qiweck Solutions (the &quot;Website&quot;). By accessing or using our Website, you agree to these Terms and Conditions.
               If you do not agree, please do not use the Website.
             </p>
           </section>
@@ -40,7 +40,7 @@ export default function Terms() {
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">4. User-Generated Content</h2>
             <p className="text-gray-600">
               You may be able to submit content (e.g., comments or reviews) to the Website. By doing so, you grant us a non-exclusive, worldwide
-              license to use that content. You agree not to post content that is illegal, defamatory, or violates others' rights.
+              license to use that content. You agree not to post content that is illegal, defamatory, or violates others&apos; rights.
             </p>
           </section>
   
@@ -55,7 +55,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">6. Disclaimers</h2>
             <p className="text-gray-600">
-              The Website and its content are provided "as is" without warranties of any kind. We do not guarantee the Website will be error-free or uninterrupted.
+              The Website and its content are provided &quot;as is&quot; without warranties of any kind. We do not guarantee the Website will be error-free or uninterrupted.
             </p>
           </section>
   
@@ -76,7 +76,7 @@ export default function Terms() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">9. Changes to Terms</h2>
             <p className="text-gray-600">
-              We may update these Terms at any time. Any changes will be posted on this page with an updated "Effective Date."
+              We may update these Terms at any time. Any changes will be posted on this page with an updated &quot;Effective Date.&quot;
             </p>
           </section>
   
